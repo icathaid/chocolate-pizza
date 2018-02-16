@@ -18,3 +18,19 @@
 <li>2 tbsp butter</li>
 <li>1 cup honey roasted pecans, roughly chopped</li>
 </ul>
+
+
+<footer>
+<fieldset>
+<img src="/img/van-pic.png" alt="Vanessa Stevenson"></img>
+<p>Vanessa Stevenson<p>
+<p>Food enthusiast, photography fan.  Ad a pinch of raw foodism and that's pretty much who I am.</p>
+<ul>
+<li>Share Recipe</li>
+</ul>
+<legend img src="img/logo.png"></legend>
+</fieldset>
+<ul>
+<li>Delicious @copy; 2013 @middot; All Rights Reserved.</li>
+<li>Proudly published with Ghost.</li>
+</footer>
