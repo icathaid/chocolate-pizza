@@ -1,0 +1,46 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Tahoma, sans-serif;
+}
+
+h2 {
+  font-family: 'Mr Bedfort', cursive;
+}
+
+h3 {
+  font-family: Tahoma, sans-serif;
+}
+
+#subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#toplogo {
+  display: block;
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+#print-icon {
+  float: right;
+}
+
+#print-icon-text {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+}
