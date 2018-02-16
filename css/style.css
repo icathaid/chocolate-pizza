@@ -1,0 +1,16 @@
+#notecard {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 155px;
+    background-image: url("../img/list-bg.png");
+    background-repeat: no-repeat;
+    column-count: 2;
+    column-width: auto;
+    list-style-type: square;
+}
+
+#strikethrough {
+    text-decoration: line-through;
+}
