@@ -1,54 +1,57 @@
 #notecard {
-    display: block;
-    font-family: 'Indie Flower', sans-serif;
-    height: 180px;
-    background-image: url("../img/list-bg.png");
-    background-repeat: no-repeat;
-    column-count: 2;
-    column-width: auto;
-    margin-bottom: 30px;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+  display: block;
+  font-family: 'Indie Flower', sans-serif;
+  height: 180px;
+  background-image: url("../img/list-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  column-count: 2;
+  column-width: auto;
+  margin-bottom: 30px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
+
 #notecard ul {
-    list-style-type: square;
+  list-style-type: square;
 }
-#strikethrough {
-    text-decoration: line-through;
+
+#strikethrough1 {
+  text-decoration: line-through;
 }
+
+#strikethrough2 {
+  text-decoration: line-through;
+}
+
 #vanessa {
-    border-top-style: outset;
-    border-top-width: 10px;
-    padding-top: 15px;
+  border-top-style: outset;
+  border-top-width: 10px;
+  padding-top: 15px;
 }
+
 #vanessaimg {
-    display: inline-block;
-    float: left;
+  float: left;
 }
-#footer {
-    display: block;
-    text-align: center;
-    list-style: none;
-    margin: 0 auto;
-}
-#bottomlogo {
-    display: block;
-    margin: 0 auto;
-}
+
 #authorname {
-    position: relative;
-    font-weight: bold;
-    top: -8px;
+  position: relative;
+  font-weight: bold;
+  top: -8px;
 }
+
 #authorbio {
-    position: relative;
+  position: relative;
 }
+  
 button {
-    float: right;
-    display: inline-block;
-    position: relative;
-    top: -55px;
+  float: right;
+  display: inline-block;
+  position: relative;
+  top: -55px;
 }
-#copyright {
-    text-align: center;
+
+footer {
+text-align: center;
+margin: 0 auto;
 }
