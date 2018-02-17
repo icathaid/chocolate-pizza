@@ -5,18 +5,27 @@ body {
 
 h1 {
   font-family: Tahoma, sans-serif;
+  font-stretch: ultra-condensed;
+  top: 25px;
 }
 
 h2 {
   font-family: 'Mr Bedfort', cursive;
+  position: relative;
+  top: -3px;
+  left: 5px;
+  font-size: 29px;
+}
+#subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  position: relative;
+  top: -36px;
+  left: 45px;
 }
 
 h3 {
   font-family: Tahoma, sans-serif;
-}
-
-#subtitle {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 #toplogo {
@@ -28,6 +37,11 @@ nav {
   float: right;
 }
 
+nav ul {
+  position: relative;
+  top: -100px;
+}
+
 nav ul li {
   display: inline-block;
 }
@@ -36,11 +50,36 @@ nav ul li a {
   text-decoration: none;
 }
 
+#top {
+  border-bottom-style: outset;
+  border-bottom-width: 10px;
+}
+
+#dateline {
+  font-family: Tahoma, sans-serif;
+  font-size: 12px;
+  position: relative;
+  top: -20px;
+  color: gray
+}
+
 #print-icon {
   float: right;
+  position: relative;
+  top: -46px;
+  right: 41px;
 }
 
 #print-icon-text {
   font-family: Arial, Helvetica, sans-serif;
   text-align: right;
+  font-size: 12px;
+  position: relative;
+  top: -48px;
+  right: -10px;
+  color: gray;
+}
+
+#article-image {
+  width: 960px;
 }
